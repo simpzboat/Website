@@ -66,15 +66,6 @@ const NRLOpenSource = () => {
                             </li>
                         </ul>
 
-                        <h4 className="font-weight-light">Skills Used</h4>
-                        <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                        <ul>
-                            <li>Python (requests, BeautifulSoup)</li>
-                            <li>Web scraping and HTML parsing</li>
-                            <li>Automated data structuring in JSON</li>
-                            <li>Year/league-based filtering</li>
-                            <li>Data pipeline design for sports analytics</li>
-                        </ul>
 
                     </div>
                 </Modal.Body>

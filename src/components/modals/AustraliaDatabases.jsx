@@ -81,20 +81,6 @@ const AustraliaDatabases = () => {
               }}
             ></div>
             <br></br>
-            <h4 class="font-weight-light">Skills Used</h4>
-            <hr
-              style={{ color: "black", backgroundColor: "white", height: 5 }}
-            />
-            <ul>
-              <li>React</li>
-              <li>Mapbox</li>
-              <li>Plotly</li>
-              <li>Python</li>
-              <li>AWS Amplify</li>
-              <li>AWS S3</li>
-              <li>AWS Route 52</li>
-              <li>AWS Cli</li>
-            </ul>
             <h4 class="font-weight-light">Website</h4>
             <hr
               style={{ color: "black", backgroundColor: "white", height: 5 }}

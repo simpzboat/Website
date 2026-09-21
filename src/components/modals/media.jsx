@@ -34,7 +34,8 @@ export const video_library = {
 };
 
 export const pdf_library = {
-  resume: `${base}Resume/resume_2025.pdf`,
+  // Resume is hidden for now - no public download link.
+  // resume: `${base}Resume/resume_2025.pdf`,
   herbicide: `${base}HerbicideMapping/herbicidemapping.pdf`,
   robotatouille: `${base}Robotatouille/Robotatouille.pdf`,
 };

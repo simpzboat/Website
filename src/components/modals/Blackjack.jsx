@@ -89,18 +89,6 @@ const Blackjack = () => {
             </div>
                     <br>
                     </br>
-                    <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Computer Vision</li>
-                        <li>Machine Learning</li>
-                        <li>Simulated Datasets</li>
-                        <li>MATLAB</li>
-                        <li>Augmented Reality</li>
-                        <li>AWS EC2</li>
-                    </ul>
                     <br>
                     </br>
                     <br>

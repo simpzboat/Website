@@ -15,7 +15,8 @@ function Animals() {
     const fetchAnimalObservations = async () => {
       setLoading(true);
       setError(null);
-      const userId = 'beauandjulia';
+      // iNaturalist profile: https://www.inaturalist.org/people/beauhobba
+      const userId = 'beauhobba';
       const placeId = 6744; // Australia
       // Set the start date to 2024-10-31
       const startDate = '2024-10-31';

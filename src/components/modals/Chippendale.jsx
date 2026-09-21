@@ -52,18 +52,6 @@ const ChippendaleCITS = () => {
                             The project helped position FMTRC as a national leader in real-world C-ITS testing and future mobility research, creating a replicable testbed model for similar deployments.
                         </p>
 
-                        <h4 className="font-weight-light">Skills Used</h4>
-                        <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                        <ul>
-                            <li>Project Management</li>
-                            <li>Connected Vehicle Testing (C-ITS)</li>
-                            <li>System Design & Test Planning</li>
-                            <li>SCATS and CPM Message Integration</li>
-                            <li>Data Collection & Post-processing</li>
-                            <li>Stakeholder Coordination & Reporting</li>
-                            <li>Collision Testing & Safety Validation</li>
-                            <li>Research & Product Development</li>
-                        </ul>
 
                     </div>
                 </Modal.Body>

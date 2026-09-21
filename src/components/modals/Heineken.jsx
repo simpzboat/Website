@@ -106,18 +106,6 @@ const Heineken = () => {
             to finalise a pair of robots for a week-long activation period.
             <br></br>
             <br></br>
-            <h4 class="font-weight-light">Skills Used</h4>
-            <hr
-              style={{ color: "black", backgroundColor: "white", height: 5 }}
-            />
-            <ul>
-              <li>UR5-E On Board Software</li>
-              <li>UR5-E Digitial I/O System</li>
-              <li>Python</li>
-              <li>ROS</li>
-              <li>Intel RealSense</li>
-              <li>Machine Learning - Human Detection</li>
-            </ul>
             <h4 class="font-weight-light">Media</h4>
             <hr
               style={{ color: "black", backgroundColor: "white", height: 5 }}

@@ -4,82 +4,95 @@ import { Modal } from "react-bootstrap";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 // Placeholder image – replace with your own logo or system screenshot
-import geospanImage from '../../images/Geospan/geospan.png';
+import geospanImage from "../../images/Geospan/geospan.png";
 
 const GeoSpan = () => {
-    const [show, setShow] = React.useState(false);
+  const [show, setShow] = React.useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-    const class_text = "GeoSpan Wildlife Platform";
+  const class_text = "Geospan";
 
-    const handleSubmit = () => {
-        handleShow();
-    };
+  const handleSubmit = () => {
+    handleShow();
+  };
 
-    return (
-        <>
-            <div className="col-sm">
-                <CardTile
-                    photo={geospanImage}
-                    text={class_text}
-                    event={() => handleSubmit()}
-                />
-            </div>
-            <Modal show={show} onHide={handleClose} size="lg">
-                <Modal.Title style={{ paddingLeft: 10, display: "flex", justifyContent: "center" }}>
-                    <div>
-                        <h1 className="font-weight-light">{class_text}</h1>
-                    </div>
-                </Modal.Title>
+  return (
+    <>
+      <div className="col-sm">
+        <CardTile
+          photo={geospanImage}
+          text={class_text}
+          event={() => handleSubmit()}
+        />
+      </div>
+      <Modal show={show} onHide={handleClose} size="lg">
+        <Modal.Title
+          style={{ paddingLeft: 10, display: "flex", justifyContent: "center" }}
+        >
+          <div>
+            <h1 className="font-weight-light">{class_text}</h1>
+          </div>
+        </Modal.Title>
 
-                <Modal.Body>
-                    <div className="font-weight-light">
+        <Modal.Body>
+          <div className="font-weight-light">
+            <h4 className="font-weight-light">My Contributions</h4>
+            <hr
+              style={{ color: "black", backgroundColor: "white", height: 5 }}
+            />
 
-                        <h4 className="font-weight-light">My Contributions</h4>
-                        <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
+            <p>
+              I cofounded Geospan to deliver road intelligence that helps
+              vehicles see further ahead by tapping into external sensors. As
+              the CTO I led the design and development of the platform's key
+              components.
+            </p>
 
-                        <p>
-                            I founded GeoSpan to deliver proactive, AI-driven wildlife monitoring solutions that reduce vehicle-wildlife collisions and support conservation efforts. I led the design and development of the platform’s key components, including real-time mapping tools, smart sensors, and wildlife detection models.
-                        </p>
-                        <p>
-                            I created the HabitatIQ system to map wildlife impact zones using GPS, environmental inputs, and behavioural analytics. This system integrates live data streams to generate predictive alerts and visualise high-risk areas.
-                        </p>
-                        <p>
-                            I also developed and integrated the <strong>RoadPulse</strong> and <strong>FieldPulse</strong> sensor units, engineered for roadside and field deployment. These devices support multi-sensor data capture (including thermal, radar, and LiDAR) and connect directly to the HabitatDB backend for structured storage and analysis.
-                        </p>
-                        <p>
-                            In addition to sensor and AI development, I led the creation of setup and deployment services, ensuring ease of field installation and data reliability for scientific and government clients.
-                        </p>
+            <p>
+              Pulse units attach to existing or new roadside cameras and run
+              detection at the edge, picking up wildlife, flooding, debris,
+              roadworks, congestion and the condition of road assets as they
+              happen. That information is sent straight out to connected
+              vehicles, maps, signage and infrastructure so drivers are warned
+              early enough to react.
+            </p>
 
-                        <h4 className="font-weight-light">Skills Used</h4>
-                        <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                        <ul>
-                            <li>Startup Development & Product Strategy</li>
-                            <li>AI Model Design (Wildlife Detection)</li>
-                            <li>Geographic Mapping & Environmental Analytics</li>
-                            <li>Sensor Integration (Thermal, Radar, LiDAR)</li>
-                            <li>Full-Stack Platform Development</li>
-                            <li>Deployment, Testing, and Field Services</li>
-                        </ul>
+            <p>
+              Atlas is the cloud portal behind it. Road operators use it to
+              monitor their network, review detections, tune models and
+              coordinate a response. It also supplies curated real world
+              training data to ADAS and autonomy teams.
+            </p>
 
-                        <h4 className="font-weight-light">Links</h4>
-                        <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                        <ul>
-                            <li>
-                                <a href="https://www.geospan.au/" target="_blank" rel="noopener noreferrer">
-                                    GeoSpan Website
-                                </a>
-                            </li>
-                        </ul>
+            <p>
+              The platform is hosted in Australia on AWS, and is built to detect
+              road conditions rather than people.
+            </p>
 
-                    </div>
-                </Modal.Body>
-                <Modal.Footer />
-            </Modal>
-        </>
-    );
+
+            <h4 className="font-weight-light">Links</h4>
+            <hr
+              style={{ color: "black", backgroundColor: "white", height: 5 }}
+            />
+            <ul>
+              <li>
+                <a
+                  href="https://www.geospan.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Geospan Website
+                </a>
+              </li>
+            </ul>
+          </div>
+        </Modal.Body>
+        <Modal.Footer />
+      </Modal>
+    </>
+  );
 };
 
 export default GeoSpan;

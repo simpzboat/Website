@@ -66,17 +66,6 @@ const Shuffleboard = () => {
             </div>
                     <br>
                     </br>
-                    <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>React</li>
-                        <li>Computer Vision</li>
-                        <li>Python</li>
-                        <li>Intel RealSense</li>
-                        <li>API</li>
-                    </ul>
                 </div>
             </Modal.Body>
             <Modal.Footer>

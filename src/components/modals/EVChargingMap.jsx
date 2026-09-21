@@ -64,16 +64,6 @@ const EVChargingMap = () => {
                         I developed a web application to dynamically map electric vehicle (EV) charging stations. The app is hosted on AWS Amplify and uses a backend built with AWS Lambda Functions to ingest live data from an open API. The map provides filtering by operator, charging status, and charger type. Users can click on locations to reveal metadata including station address, operator, power rating, and status.
                     </p>
 
-                    <h4 className="font-weight-light">Skills Used</h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>AWS Amplify</li>
-                        <li>AWS Lambda</li>
-                        <li>API Integration</li>
-                        <li>React</li>
-                        <li>Data Visualization</li>
-                        <li>Map-based User Interfaces</li>
-                    </ul>
 
                     <h4 className="font-weight-light">Gallery</h4>
                     <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />

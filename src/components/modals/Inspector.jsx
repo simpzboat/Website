@@ -49,37 +49,22 @@ const InspectorRobot = () => {
 
         <Modal.Body className="font-weight-light">
           <section>
-            <h4>Description</h4>
+            <h4 className="font-weight-light">Description</h4>
             <hr style={{ backgroundColor: "white", height: 5 }} />
             <p>
               As Lead Mechatronics Engineer at AKIN AI, I designed and developed the embedded systems and AI backend for the "Inspector Robot," an AI-driven robot for NASA JPL applications. The robot performed person identification, ambient environmental monitoring, emotion and fatigue detection, navigation, actuation, speech recognition, and object detection.
             </p>
           </section>
 
-          <section>
-            <h4>Skills Used</h4>
-            <hr style={{ backgroundColor: "white", height: 5 }} />
-            <ul>
-              <li>ROS2 / MicroROS</li>
-              <li>Python, C, C++</li>
-              <li>Sensor and Actuator Integration</li>
-              <li>Embedded Electronics</li>
-              <li>Computer Vision (TensorFlow/Keras)</li>
-              <li>AI and Multimodal Learning Systems</li>
-              <li>Flask APIs and Web Development</li>
-              <li>System Design and Assembly</li>
-              <li>Agile Development and Team Leadership</li>
-            </ul>
-          </section>
 
           <section>
-            <h4>Gallery</h4>
+            <h4 className="font-weight-light">Gallery</h4>
             <hr style={{ backgroundColor: "white", height: 5 }} />
             <ImageGallery items={images} />
           </section>
 
           <section style={{ marginTop: "2rem" }}>
-            <h4>Videos</h4>
+            <h4 className="font-weight-light">Videos</h4>
             <hr style={{ backgroundColor: "white", height: 5 }} />
             <div style={{ maxWidth: "800px", margin: "0 auto", marginBottom: 20 }}>
               <Slider {...sliderSettings}>

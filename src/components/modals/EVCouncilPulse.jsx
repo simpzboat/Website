@@ -59,16 +59,6 @@ const ElectricCouncilMap = () => {
                         I developed a dynamic, filterable dashboard that provides geographic insights into electric vehicle (EV) infrastructure by council area. Built using Plotly Dash and hosted via Elastic Beanstalk with a Python runtime, this dashboard allows users to explore EV charger statistics and filter data by council. The app dynamically updates charts and maps based on user input.
                     </p>
 
-                    <h4 className="font-weight-light">Skills Used</h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Plotly Dash</li>
-                        <li>Python</li>
-                        <li>Elastic Beanstalk</li>
-                        <li>Docker (optional deployment)</li>
-                        <li>Data Visualization</li>
-                        <li>Geographic Analytics</li>
-                    </ul>
 
                     <h4 className="font-weight-light">Gallery</h4>
                     <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />

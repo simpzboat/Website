@@ -109,23 +109,6 @@ const Roost = () => {
                     <br>
                     </br>
                     <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe After Effects / Adobe Cinema 4D</li>
-                        <li>React</li>
-                        <li>AWS Amplify</li>
-                        <li>AWS Dynamo DB</li>
-                        <li>AWS App Sync</li>
-                        <li>AWS Route 52</li>
-                        <li>AWS Cli</li>
-                        <li>Mailchimp</li>
-                        <li>Google Analytics</li>
-                    </ul>
-                    <h4 class="font-weight-light">
                         Website
                     </h4>
                     <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />

@@ -86,15 +86,6 @@ const Deepracer = () => {
                     </br>
                     <br>
                     </br>
-                    <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Reinforcement Learning</li>
-                        <li>AWS</li>
-                        <li>Mechnics</li>
-                    </ul>
                     <br>
                     </br>
                     <h4 class="font-weight-light">

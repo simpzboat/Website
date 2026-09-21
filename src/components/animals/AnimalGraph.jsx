@@ -6,6 +6,9 @@ import MapChart from "./Map";
 import Plotly from "plotly.js-dist";
 
 
+// Default view, and the furthest the map is allowed to zoom back out to.
+const MIN_ZOOM = 3.5;
+
 const AnimalGraph = (props) => {
 
   useEffect(() => {
@@ -37,7 +40,7 @@ const AnimalGraph = (props) => {
                 lon: 133.4,
               },
               style: "open-street-map",
-              zoom: 3.5,
+              zoom: MIN_ZOOM,
             },
             autosize: true,
             height: 650,
@@ -58,7 +61,20 @@ const AnimalGraph = (props) => {
               orientation: "v",
             },
           };
-          Plotly.newPlot("map", [trace1], layout);
+          Plotly.newPlot("map", [trace1], layout).then((gd) => {
+            // Stop the map being zoomed out past the default Australia-wide view.
+            let clamping = false;
+            gd.on("plotly_relayout", (ev) => {
+              if (clamping) return;
+              const zoom = ev["mapbox.zoom"];
+              if (typeof zoom === "number" && zoom < MIN_ZOOM) {
+                clamping = true;
+                Plotly.relayout(gd, { "mapbox.zoom": MIN_ZOOM }).then(() => {
+                  clamping = false;
+                });
+              }
+            });
+          });
   }, []);
 
 

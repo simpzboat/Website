@@ -104,17 +104,6 @@ const Robotatouille = () => {
                     </br>
                     <br>
                     </br>
-                    <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Machine Learning</li>
-                        <li>UAV Control</li>
-                        <li>Sensors</li>
-                        <li>ROS</li>
-                        <li>System Design</li>
-                    </ul>
 
                     <h4 class="font-weight-light">
                         Research Paper

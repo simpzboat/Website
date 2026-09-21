@@ -28,8 +28,7 @@ function Blog() {
           <div class="col-lg-5">
             <h1 class="font-weight-light">My Blog</h1>
             <p>
-              Documenting my life... <br></br>
-              🚧 Note this website is still under construction 🚧
+              Documenting my life...
             </p>
             
           </div>

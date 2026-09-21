@@ -53,8 +53,6 @@ const SmartTrafficLantern = () => {
         }
     }, []);
     const linkStyle = {
-        color: "purple",
-        fontWeight: "bold",
         textDecoration: "underline",
       };
     return (
@@ -99,19 +97,6 @@ const SmartTrafficLantern = () => {
                         I led the design and delivery of two separate intersections of smart traffic lantern infrastructure at FMTRC. The systems incorporated embedded technologies, fibre optics, and sensor integration to support future Cooperative Intelligent Transport Systems (C-ITS) and AI research. I produced detailed engineering drawings, coordinated procurement, managed construction, testing, and safety operations, and secured internal funding. This project successfully enabled further research collaborations and new revenue streams for FMTRC.
                     </p>
 
-                    <h4 className="font-weight-light">Skills Used</h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Stakeholder Engagement</li>
-                        <li>WHS Management</li>
-                        <li>Engineering Design and Innovation</li>
-                        <li>Networking and Fibre Optics</li>
-                        <li>C-ITS (Cooperative Intelligent Transport Systems)</li>
-                        <li>Project and Construction Management</li>
-                        <li>Technical Documentation</li>
-                        <li>Traffic Standards Compliance</li>
-                        <li>Interstate Collaboration</li>
-                    </ul>
 
                     <h4 className="font-weight-light">Media Articles</h4>
                     <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />

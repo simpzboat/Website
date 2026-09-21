@@ -82,17 +82,6 @@ const HerbicideMapping = () => {
                     </br>
                     <br>
                     </br>
-                    <h4 class="font-weight-light">
-                        Skills Used
-                    </h4>
-                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
-                    <ul>
-                        <li>Kinematics/Coordinate Transforms</li>
-                        <li>UAV Control</li>
-                        <li>Semantic Segmentation</li>
-                        <li>OpenCV</li>
-                        <li>Geotagging</li>
-                    </ul>
 
                     <h4 class="font-weight-light">
                         Research Paper
@@ -116,6 +105,27 @@ const HerbicideMapping = () => {
                         <ReactPlayer
                             url="https://www.youtube.com/watch?v=dUk-u2MJ-Bk&ab_channel=BeauHobba" />
                     </div>
+                    <br>
+                    </br>
+                    <br>
+                    </br>
+                    <h4 class="font-weight-light">
+                        Link
+                    </h4>
+                    <hr style={{ color: "black", backgroundColor: "white", height: 5 }} />
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.researchgate.net/publication/356833238_Efficient_Herbicide_Spray_Pattern_Generation_for_Site-Specific_Weed_Management_Practices_Using_Semantic_Segmentation_on_UAV_Imagery"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Efficient Herbicide Spray Pattern Generation for Site-Specific
+                                Weed Management Practices Using Semantic Segmentation on UAV
+                                Imagery
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </Modal.Body>
             <Modal.Footer>

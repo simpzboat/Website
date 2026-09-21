@@ -10,11 +10,11 @@ import {
   Footer,
   Home,
   About,
-  Contact,
-  Blog,
   Animals
 } from "./components";
-import Skills from "./components/Skills";
+// Blog and Skills pages are hidden for now.
+// import { Blog } from "./components";
+// import Skills from "./components/Skills";
 
 ReactDOM.render(
   <Router>
@@ -22,11 +22,11 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />} />
       <Route path="/animals" element={<Animals />} />
-      <Route path="/skills" element={<Skills />}>
-      </Route>
+      {/* Blog and Skills pages are hidden for now.
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/skills" element={<Skills />} />
+      */}
     </Routes>
     <Footer />
   </Router>,
