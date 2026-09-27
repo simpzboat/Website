@@ -1,0 +1,47 @@
+/*
+ * Year filter buttons, styled to match shadcn/ui's Button component.
+ * Unselected uses the "outline" variant, selected uses "default".
+ */
+
+.year-filter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 16px;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: background-color 0.15s ease, border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.year-filter:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.year-filter:focus-visible {
+  outline: 2px solid #0f172a;
+  outline-offset: 2px;
+}
+
+.year-filter--selected {
+  background-color: #0f172a;
+  border-color: #0f172a;
+  color: #f8fafc;
+}
+
+.year-filter--selected:hover {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
