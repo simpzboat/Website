@@ -44,7 +44,7 @@ At one point, my best mate and I ran Australia’s largest 'Kit PvP' Minecraft s
               when I was younger at the farm dam, one thing led to another, and
               I found myself walking up remote waterfalls looking for spiny
               crays. In my spare time, I now try to photograph and observe any
-              creature endemic to Australia and have become an avid twitcher . 
+              creature endemic to Australia and have become an avid twitcher. 
             </p>
           </div>
         </div>
